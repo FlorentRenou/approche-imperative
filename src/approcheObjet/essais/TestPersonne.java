@@ -6,9 +6,13 @@ import approcheObjet.entites.Personne;
 public class TestPersonne {
     public static void main(String[] args) {
 
-        AdressePostale adresse1 = new AdressePostale();
-        Personne Personne1 = new Personne("Renou", "Florent", adresse1);
-        Personne Personne2 = new Personne("Ren", "Flo", adresse1);
+
+        Personne PersonneTP1 = new Personne();
+
+        Personne PersonneTP2 = new Personne("Renou", "Florent");
+
+        AdressePostale adresseTP2 = new AdressePostale(1,"Tennie",1,"72666");
+        Personne PersonneTP2_2 = new Personne("Renou", "Florent", adresseTP2);
 
     }
 
