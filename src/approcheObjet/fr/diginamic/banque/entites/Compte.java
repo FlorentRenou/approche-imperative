@@ -11,7 +11,9 @@ public class Compte {
 
     @Override
     public String toString() {
-        return "Le numéro est " + numero + " et la solde est de " + solde;
+        return "Compte{" +
+                "numero=" + numero +
+                ", solde=" + solde +
+                '}';
     }
-
 }
